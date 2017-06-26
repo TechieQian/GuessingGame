@@ -1,0 +1,68 @@
+.center {
+  text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+  background-image: url('red.jpg');
+  background-repeat: no-repeat;
+}
+
+.guess {
+  display: inline;
+  font-size: 60px;
+  border: 1px solid black;
+  padding: 5px 35px;
+  border-radius: 10%;
+}
+
+.pastdbl {
+  padding: 5px 11.12px;
+}
+
+.pastsingle {
+  padding: 5px 28px;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+#app {
+  width: 60%;
+  margin: 50px auto;
+}
+
+#players-input {
+  border-radius: 50%;
+  font-size: 100px;
+  width: 200px;
+  height: 200px;
+  margin: 10px
+}
+
+#go-btn {
+  position: absolute;
+  right: 420px;
+  bottom: 10px;
+}
+
+
+
+#input-fields {
+  position: relative
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}

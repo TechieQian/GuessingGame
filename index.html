@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body >
+
+      <div id='app' class="center container">
+
+        <div id='headers'>
+          <h1>Guessing Game!</h1>
+          <h2>Uh, Guess a number</h2>
+        </div>
+
+        <div id='main'>
+            <div id='input-fields'>
+
+              <input id='players-input' class='center' placeholder="#" maxlength='3' autofocus=autofocus></input>
+
+              <button id='go-btn' type="button" disabled class="btn btn-primary btn-lg">Go!</button>
+              </div>
+
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+              <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button id='reset-btn' type="button" class="btn btn-warning btn-lg">Reset</button>
+            <button id='hint-btn' type="button" class="btn btn-info btn-lg">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+    <div id='footer' class='center'>
+        <div class="row">
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Simple by Qian</h4>
+          </div>
+        </div>
+    </div>
+
+  </body>
+  <script src="jquery-3.2.1.js"></script>
+  <script src="GuessingGame.js"></script>
+
+</html>
